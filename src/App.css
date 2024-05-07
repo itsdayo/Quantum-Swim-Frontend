@@ -1,0 +1,111 @@
+#root {
+  width: 100%;
+  height: 100%;
+}
+h1 {
+  font-size: 72px;
+  background: -webkit-linear-gradient(315deg, #36669d 0%, #d3d3d3 74%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+.site_header {
+  padding: 2rem;
+  text-align: center;
+  background-color: "red";
+  margin: 0;
+
+  width: 100%;
+}
+.userComment {
+  display: "flex";
+  justify-content: "right";
+}
+.textarea_container {
+  margin-left: 20px;
+}
+textarea {
+  margin-left: 20px;
+  width: 100%;
+  border-width: 0;
+  border: 3px solid #dedede;
+  border-radius: 5px;
+}
+::-webkit-input-placeholder {
+  color: #7a7474;
+  line-height: 30px;
+}
+::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  color: #7a7474;
+  line-height: 30px;
+}
+::-webkit-input-placeholder {
+  /* Webkit */
+  color: #7a7474;
+  line-height: 30px;
+}
+:-ms-input-placeholder {
+  /* IE */
+  color: #7a7474;
+  line-height: 30px;
+}
+textarea::placeholder {
+  color: #7a7474;
+  line-height: 30px;
+}
+.send-button {
+  margin-top: 20px;
+}
+.loading-indicator {
+  margin-left: 45px;
+  margin-bottom: 15px;
+}
+.content-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+}
+.output-container {
+  width: 100%;
+  margin-bottom: 10px;
+  margin-top: auto;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
